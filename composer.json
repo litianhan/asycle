@@ -1,0 +1,27 @@
+{
+	"description": "The asycle framework v1",
+	"name": "asycle",
+	"type": "project",
+	"homepage": "http://asycle.com",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Asycle\\": "asycle/"
+		}
+	},
+	"require": {
+		"php": ">=7.0",
+		"phpmailer/phpmailer":"*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^6.0"
+	},
+	"scripts": {
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
