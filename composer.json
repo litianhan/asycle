@@ -1,6 +1,6 @@
 {
 	"description": "The asycle framework v1",
-	"name": "asycle",
+	"name": "tenhan/asycle",
 	"type": "project",
 	"homepage": "http://asycle.com",
 	"license": "MIT",
@@ -11,17 +11,11 @@
 	},
 	"require": {
 		"php": ">=7.0",
-		"phpmailer/phpmailer":"*"
+		"phpmailer/phpmailer":"^6.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "^6.0"
 	},
 	"scripts": {
-	},
-	"repositories": {
-		"packagist": {
-			"type": "composer",
-			"url": "https://packagist.phpcomposer.com"
-		}
 	}
 }
